@@ -1008,7 +1008,7 @@ do
                     if Assets.Main and Assets.Main.ToggleVisibility then
                         Assets.Main.ToggleVisibility(false)
                         Assets.Notifications.Send({
-                            Description = "Night has been minimized!",
+                            Description = "Kawnew has been minimized!",
                             Duration = 5
                         })
                     else
