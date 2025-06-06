@@ -84,7 +84,7 @@ local Assets = nil
 if getgenv().Night.Dev and isfile(baseFolder .. "/Library/Init.lua") then
     loadstring(readfile(baseFolder .. "/Library/Init.lua"))()
 else
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/warprbx/NightRewrite/refs/heads/main/Night/Library/Init.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efield44444235364/Ui/refs/heads/main/Init.lua"))()
 end
 Assets = getgenv().Night.Assets
 
